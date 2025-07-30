@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Samvdena Neuro Care - Expert neurological care by Dr. Mauli Vora (MBBS, MD, DrNB Neuro) in Paldi. Specializing in epilepsy, stroke, headaches, and movement disorders.">
+    <meta name="keywords" content="neurologist, Paldi, Dr. Mauli Vora, neuro physician, epilepsy treatment, headache specialist, best neurologist in Ahmedabad">
+    <title>Samvdena Neuro Care | Dr. Mauli Vora | Neurologist in Paldi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta property="og:title" content="Samvedana Neuro Care | Dr. Mauli Vora - Neurologist in Paldi" />
+<meta property="og:description" content="Expert care in epilepsy, stroke, migraine, and more by Dr. Mauli Vora in Paldi, Ahmedabad." />
+<meta property="og:image" content="URL_TO_SHARE_IMAGE.jpg" />
+<meta property="og:url" content="http://www.samvedananeurocare.in/" />
+<meta name="twitter:card" content="summary_large_image" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #002366;
+            --secondary: #008080;
+            --accent: #ADD8E6;
+            --light: #F8F9FA;
+            --dark: #212529;
+            --white: #FFFFFF;
+            --menu-bg: #e6f2f2; /* Light teal menu background */
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: "Poppins", Sans-serif;
+            color: var(--dark);
+            line-height: 1.6;
+            background-color: var(--light);
+        }
+        
+        h1, h2, h3, h4 {
+            font-family: "Poppins", Sans-serif;
+            color: var(--primary);
+        }
+        
+        a {
+            text-decoration: none;
+            color: var(--secondary);
+            transition: all 0.3s ease;
+	            }
+        
+        a:hover {
+            color: var(--primary);
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+	    inset :0;
+	    
+        }
+	.containerbg {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+	    inset :0;
+	    background-color:rgba(255,255,255,0.3) 
+        }
+
+	
+        
+        /* Header with Light Teal Menu */
+        header {
+            background-color: var(--menu-bg);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        }
+         
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+        
+        .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+        
+        .logo-text h1 {
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+            color: var(--primary);
+        }
+        
+        .logo-text p {
+            font-size: 0.8rem;
+            color: var(--secondary);
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+        
+        nav ul li {
+            margin-left: 30px;
+        }
+        
+        nav ul li a {
+            font-weight: 700;
+            color: var(--primary);
+            position: relative;
+            padding: 8px 0;
+        }
+        
+        nav ul li a:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            background: var(--secondary);
+            bottom: 0;
+            left: 0;
+            transition: width 0.3s;
+        }
+        
+        nav ul li a:hover:after {
+            width: 100%;
+        }
+        
+        .contact-number {
+            background-color: var(--secondary);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 5px;
+            font-weight: 500;
+        }
+        
+        .contact-number:hover {
+            background-color: var(--primary);
+            color: white;
+        }
+        
+        /* Hero Section with Brain/Neurons Background */
+        .hero {
+ 	    min-height: 110vh;
+            background: 
+            url('image/hero-neurology.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 180px 20px 100px;
+            margin-top: 80px;
+ inset :0; 	    backdrop-filter:blur(5px);
+	     
+		background-color:rgba(255,255,255,0.3); z-index:11100;
+
+        }
+.overlay{
+position:absolute;
+top:0;
+right:0;
+bottom:0;
+left:0;
+background-color:rgba(255,255,255,0.74);
+z-index:-11100;
+}
+        
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color:  #002366;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary {
+            background-color: var(--secondary);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #006666;
+            color: white;
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        
+        .btn-secondary:hover {
+            background-color: white;
+            color: var(--primary);
+        }
+        
+        /* Services Section */
+        .section {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .section-title h2 {
+            font-size: 2rem;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 15px;
+        }
+        
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            background-color: var(--secondary);
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .service-card {
+            background-color: var(--white);
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .service-icon {
+            background-color: var(--accent);
+            color: var(--primary);
+            font-size: 2.5rem;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        .service-content {
+            padding: 25px;
+        }
+        
+        .service-content h3 {
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        /* About Section */
+        .about {
+            background-color: var(--white);
+        }
+        
+        .about-container {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        
+        .about-image {
+            flex: 1;
+            min-width: 300px;
+            padding-right: 30px;
+        }
+        
+        .about-image img {
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .about-content {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .about-content h2 {
+            margin-bottom: 20px;
+        }
+        
+        .about-content p {
+            margin-bottom: 15px;
+        }
+        
+        .credentials {
+            margin-top: 20px;
+        }
+        
+        .credentials li {
+            margin-bottom: 8px;
+            list-style-type: none;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .credentials li:before {
+            content: '\f00c';
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: var(--secondary);
+            position: absolute;
+            left: 0;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            background: linear-gradient(rgba(0, 35, 102, 0.8), rgba(0, 35, 102, 0.8)), url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+        }
+        
+        .testimonials h2 {
+            color: white;
+        }
+        
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+        
+        .testimonial-card {
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 30px;
+            border-radius: 8px;
+            color: var(--dark);
+        }
+        
+        .testimonial-text {
+            font-style: italic;
+            margin-bottom: 20px;
+            position: relative;
+        }
+        
+        .testimonial-text:before {
+            
+            font-family: 'Font Awesome 6 Free';
+            font-weight: 900;
+            color: var(--secondary);
+            opacity: 0.3;
+            font-size: 3rem;
+            position: absolute;
+            top: -20px;
+            left: -10px;
+        }
+        
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+        }
+        
+        .testimonial-author img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            object-fit: cover;
+        }
+        
+        .author-info h4 {
+            margin-bottom: 5px;
+            color: var(--primary);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--primary);
+            color: white;
+            padding: 60px 0 20px;
+        }
+        
+        .footer-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+        
+        .footer-col h3 {
+            color: white;
+            margin-bottom: 20px;
+            font-size: 1.2rem;
+            position: relative;
+            padding-bottom: 10px;
+        }
+        
+        .footer-col h3:after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 2px;
+            background-color: var(--secondary);
+            bottom: 0;
+            left: 0;
+        }
+        
+        .footer-col ul {
+            list-style: none;
+        }
+        
+        .footer-col ul li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-col ul li a {
+            color: #cccccc;
+        }
+        
+        .footer-col ul li a:hover {
+            color: white;
+            padding-left: 5px;
+        }
+        
+        .contact-info p {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .contact-info i {
+            margin-right: 10px;
+            color: var(--secondary);
+        }
+        
+        .social-links {
+            display: flex;
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            margin-right: 10px;
+            color: white;
+            transition: all 0.3s ease;
+        }
+        
+        .social-links a:hover {
+            background-color: var(--secondary);
+            transform: translateY(-3px);
+        }
+        
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 0.9rem;
+            color: #cccccc;
+        }
+        .hero .container p {
+        color: #002366;
+   	}
+	.hero .containerbg p {
+        color: #002366;
+   	}
+
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            width: 60px;
+            height: 60px;
+            bottom: 40px;
+            right: 40px;
+            background-color: #25d366;
+            color: #FFF;
+            border-radius: 50px;
+            text-align: center;
+            font-size: 30px;
+            box-shadow: 2px 2px 3px #999;
+            z-index: 100;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+        }
+        
+        .whatsapp-float:hover {
+            background-color: #128C7E;
+            transform: scale(1.1);
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul {
+                margin-top: 20px;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+            
+            nav ul li {
+                margin: 0 10px 10px;
+            }
+            
+            .hero {
+                padding: 150px 20px 80px;
+            }
+            
+            .hero h1 {
+                font-size: 2rem;
+            }
+            
+            .about-container {
+                flex-direction: column;
+            }
+            
+            .about-image {
+                padding-right: 0;
+                margin-bottom: 30px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Light Teal Menu -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img src="Image\\loho.jpg" alt="Samvdena Neuro Care Logo">
+                <div class="logo-text">
+                    <h1>Samvedana Neurocare Clinic</h1>
+                                    </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#patients">For Patients</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="tel:+91820045035" class="contact-number"><i class="fas fa-phone-alt"></i> +91 820045035</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section with Brain/Neurons Background -->
+    <section class="hero" id="home">
+        <div class="containerbg">
+	<div class="overlay"></div>
+
+            <h1>Expert Neurological Care in Paldi</h1>
+            <p>Comprehensive diagnosis and treatment for neurological disorders <br/>by <br/><b>Dr. Mauli Vora (MBBS, MD, DNB Neuro)</b></p>
+            <a href="#contact" class="btn btn-primary">Book Appointment</a>
+            <a href="#services" class="btn btn-primary">Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section" id="services">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>Comprehensive neurological care for all ages</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Epilepsy Treatment</h3>
+                        <p>Advanced diagnosis and management of epilepsy and seizure disorders with personalized treatment plans.</p>
+                        <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-head-side-virus"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Headache & Migraine</h3>
+                        <p>Specialized care for chronic headaches and migraines including preventive and acute treatments.</p>
+                        <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-procedures"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Stroke Management</h3>
+                        <p>Comprehensive stroke care including prevention, acute treatment, and rehabilitation services.</p>
+                        <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-wheelchair"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Movement Disorders</h3>
+                        <p>Expert care for Parkinson's disease, tremors, dystonia and other movement disorders.</p>
+                        <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-memory"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Memory Disorders</h3>
+                        <p>Diagnosis and management of dementia, Alzheimer's disease and other cognitive impairments.</p>
+                        <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-dna"></i>
+                    </div>
+                    <div class="service-content">
+                        <h3>Neuropathy Treatment</h3>
+                        <p>Comprehensive evaluation and treatment for peripheral nerve disorders and neuropathic pain.</p>
+                        <a href="#">Learn More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container about-container">
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Dr. Mauli Vora">
+            </div>
+            <div class="about-content">
+                <h2>About Dr. Mauli Vora</h2>
+                <p>Dr. Mauli Vora is a highly skilled neurologist with extensive experience in diagnosing and treating complex neurological disorders. With her compassionate approach and evidence-based practice, she provides personalized care to each patient.</p>
+                <p>After completing her medical education and specialization, Dr. Vora has worked with some of the most prestigious medical institutions in India, gaining expertise in various subspecialties of neurology.</p>
+                <ul class="credentials">
+                    <li>MBBS - Top Medical College</li>
+                    <li>MD (Medicine) - Prestigious University</li>
+                    <li>DNB (Neurology) - National Board of Examinations</li>
+                    <li>Fellowship in Epilepsy Management</li>
+                    <li>Special Training in Stroke Care</li>
+                </ul>
+                <a href="#" class="btn btn-primary" style="margin-top: 20px;">Read Full Biography</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="patients">
+        <div class="container">
+            <div class="section-title">
+                <h2>Patient Testimonials</h2>
+                <p>What our patients say about us</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"Dr. Vora's expertise and caring approach made all the difference in managing my epilepsy. After years of uncontrolled seizures, I finally have my life back thanks to her treatment plan."</p>
+                    </div>
+                    <div class="testimonial-author">
+                          <div class="author-info">
+                            <h4>Vama Patel</h4>
+                            <p>Epilepsy Patient</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p> "જ્યારે મારા પિતાને સ્ટ્રોક આવ્યો, ત્યારે ડૉ. વોરાના તાત્કાલિક નિદાન અને સારવારથી તેમનો જીવ બચી ગયો. તેમના સ્વસ્થ થવા દરમિયાન તેમનું અનુવર્તી સંભાળ અને પુનર્વસન માર્ગદર્શન અસાધારણ રહ્યું છે".</p>
+                    </div>
+                    <div class="testimonial-author">
+                             <div class="author-info">
+                            <h4>Kaivan Sharma</h4>
+                            <p>Stroke Patient's Family</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-text">
+                        <p>"वर्षों तक लगातार माइग्रेन से पीड़ित रहने के बाद, डॉ. वोरा ने मूल कारण की पहचान की और एक उपचार योजना विकसित की जिससे मेरे लक्षणों में काफ़ी कमी आई। मैं उनकी विशेषज्ञता के लिए आभारी हूँ।."</p>
+                    </div>
+                    <div class="testimonial-author">
+                       
+                        <div class="author-info">
+                            <h4>Poojan Desai</h4>
+                            <p>Migraine Patient</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>Schedule an appointment or ask your questions</p>
+            </div>
+            <div class="about-container">
+                <div class="about-content">
+                    <h3>Clinic Address</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 504,Anikedhya Capitol 2 Complex ,
+Near Mahalaxmi cross roads,Fatehpura,Paldi,Ahmedabad,Gujarat-380007</p>
+                    
+                    <h3 style="margin-top: 30px;">Contact Information</h3>
+                    <p><i class="fas fa-phone-alt"></i> +91 82000 45035</p>
+                    <p><i class="fas fa-envelope"></i> samvedananeurocareclinic@gmail.com</p>
+                    
+                    <h3 style="margin-top: 30px;">Office Hours</h3>
+                    <p><i class="far fa-clock"></i> <b>Monday to Saturday: 9:00 AM - 1:00 PM,5:00 PM - 8:00 PM </b></p>
+                    <p><i class="far fa-clock"></i> Sunday: Emergency Only</p>
+                    
+                                   </div>
+                <div class="about-image">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.394627067884!2d72.55984417524581!3d23.009278379183133!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e85acd84a9047%3A0x5f61e835af322c7f!2sAnikedhya%20Capitol%202!5e0!3m2!1sen!2sde!4v1753902542474!5m2!1sen!2sde" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-container">
+                <div class="footer-col">
+                    <h3>Samvdena Neuro Care</h3>
+                    <p>Providing expert neurological care in Paldi, Ahmedabad with compassion and clinical excellence.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Dr. Vora</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#patients">For Patients</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Epilepsy Treatment</a></li>
+                        <li><a href="#">Stroke Care</a></li>
+                        <li><a href="#">Headache Management</a></li>
+                        <li><a href="#">Movement Disorders</a></li>
+                        <li><a href="#">Neuropathy Treatment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> 504,Anikedhya Capitol 2 Complex, 
+Nr.Mahalaxi Cross roads,Fatehpura,Paldi,Ahmedabad-380007</p>
+                        <p><i class="fas fa-phone-alt"></i> +91 99999 99999</p>
+                        <p><i class="fas fa-envelope"></i> info@samvdenaneurocare.com</p>
+                        <p><i class="fas fa-clock"></i> Mon-Sat: 9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy;Samvedana Neurocare Clinic. All Rights Reserved. | Designed with <i class="fas fa-heart" style="color: #ff6b6b;"></i> for better neurological health</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/8200045035?text=Hello%20Dr.%20Vora,%20I%20would%20like%20to%20visit%20your%20clinic.%20Can%20you%20please%20share%20appointment%20Details..." class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Sticky header on scroll
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
+</body>
+</html>
