@@ -20,24 +20,24 @@ const Testimonials = () => {
       name: "Amit Kumar",
       condition: "Stroke Recovery",
       rating: 5,
-      feedback: "The comprehensive stroke care I received at Samvedana Neuro Care was exceptional. Dr. Vora's expertise and the rehabilitation program helped me recover much faster than expected."
+      feedback: "The comprehensive stroke care I received at Samvedana NeuroCare was exceptional. Dr. Mauli's expertise and the rehabilitation program helped me recover much faster than expected."
       
     },
     {
       name: "Meera Joshi",
       condition: "Movement Disorders",
       rating: 5,
-      feedback: "My Parkinson's symptoms were affecting my daily life significantly. Dr. Vora's treatment approach has improved my mobility and quality of life tremendously. Highly recommended!"    },
+      feedback: "My Parkinson's symptoms were affecting my daily life significantly. Dr.Mauli's treatment approach has improved my mobility and quality of life tremendously. Highly recommended!"    },
     {
       name: "Suresh Agarwal",
       condition: "Memory Disorders",
       rating: 5,
-      feedback: "Dr. Vora's early intervention and treatment plan for my memory issues has been remarkable. Her thorough evaluation and personalized care approach is truly commendable."    },
+      feedback: "Dr Mauli vora's early intervention and treatment plan for my memory issues has been remarkable. Her thorough evaluation and personalized care approach is truly commendable."    },
     {
       name: "Kavita Sharma",
       condition: "Neuropathy Treatment",
       rating: 5,
-      feedback: "The neuropathic pain in my feet was unbearable. Dr. Vora's treatment has significantly reduced my pain levels, and I can walk comfortably again. Excellent care and follow-up."    }
+      feedback: "The neuropathic pain in my feet was unbearable. Her treatment has significantly reduced my pain levels, and I can walk comfortably again. Excellent care and follow-up."    }
   ];
 
   const renderStars = (rating: number) => {
